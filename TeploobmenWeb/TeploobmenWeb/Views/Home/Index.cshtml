@@ -1,0 +1,155 @@
+﻿@{
+    ViewData["Title"] = "Главная страница";
+}
+
+<div class="text-center py-5">
+    <h1 class="display-4 mb-4">
+        <i class="bi bi-thermometer-half text-primary"></i>
+        HeatExchange
+    </h1>
+
+    <p class="lead mb-4">
+        Программа для расчета теплообмена в противоточном движении<br>
+        кусковых материалов и газов в плотном продуваемом слое
+    </p>
+
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-body p-4">
+                    <h4 class="card-title mb-4">
+                        <i class="bi bi-lightning-charge text-warning"></i>
+                        Быстрый старт
+                    </h4>
+
+                    <div class="d-grid gap-3">
+                        <a href="@Url.Action("Index", "Calculation")" class="btn btn-primary btn-lg">
+                            <i class="bi bi-calculator"></i> Начать новый расчет
+                        </a>
+
+                        <a href="@Url.Action("Index", "History")" class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-clock-history"></i> Посмотреть историю расчетов
+                        </a>
+
+                        @if (Context.Session.GetString("Username") == null)
+                        {
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <a href="@Url.Action("Login", "Account")" class="btn btn-success">
+                                        <i class="bi bi-box-arrow-in-right"></i> Войти в систему
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="@Url.Action("Register", "Account")" class="btn btn-outline-success">
+                                        <i class="bi bi-person-plus"></i> Зарегистрироваться
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Информационные карточки -->
+    <div class="row mt-5">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <i class="bi bi-graph-up-arrow display-6 text-primary"></i>
+                    </div>
+                    <h5 class="card-title">Расчеты и графики</h5>
+                    <p class="card-text">
+                        Расчет распределения температур материала и газа по высоте слоя
+                        с построением графиков
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <i class="bi bi-database display-6 text-success"></i>
+                    </div>
+                    <h5 class="card-title">История расчетов</h5>
+                    <p class="card-text">
+                        Сохранение всех расчетов в базе данных
+                        с возможностью просмотра и повторного использования
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <i class="bi bi-shield-check display-6 text-info"></i>
+                    </div>
+                    <h5 class="card-title">Безопасность</h5>
+                    <p class="card-text">
+                        Система авторизации пользователей
+                        для защиты персональных данных и расчетов
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Пример расчета -->
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">
+                        <i class="bi bi-info-circle"></i> Пример типовых параметров
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Параметр</th>
+                                    <th>Обозначение</th>
+                                    <th>Единицы</th>
+                                    <th>Типовое значение</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Высота слоя</td>
+                                    <td>H₀</td>
+                                    <td>м</td>
+                                    <td>5.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Температура газа на входе</td>
+                                    <td>t'</td>
+                                    <td>°C</td>
+                                    <td>700</td>
+                                </tr>
+                                <tr>
+                                    <td>Температура материала на входе</td>
+                                    <td>T'</td>
+                                    <td>°C</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>Скорость газа</td>
+                                    <td>wг</td>
+                                    <td>м/с</td>
+                                    <td>0.78</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

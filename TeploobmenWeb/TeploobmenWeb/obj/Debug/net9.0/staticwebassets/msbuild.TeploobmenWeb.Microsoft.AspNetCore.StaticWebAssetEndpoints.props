@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/TeploobmenWeb/css/site.cac8cuq0u0.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cac8cuq0u0"},{"Name":"integrity","Value":"sha256-zKsROjxuOFqZ3AJdn7MHENEdzo8ylHprfbgEFAQQJTM="},{"Name":"label","Value":"_content/TeploobmenWeb/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4855"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zKsROjxuOFqZ3AJdn7MHENEdzo8ylHprfbgEFAQQJTM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Dec 2025 14:34:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TeploobmenWeb/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zKsROjxuOFqZ3AJdn7MHENEdzo8ylHprfbgEFAQQJTM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4855"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zKsROjxuOFqZ3AJdn7MHENEdzo8ylHprfbgEFAQQJTM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Dec 2025 14:34:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TeploobmenWeb/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6622"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Dec 2025 14:34:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TeploobmenWeb/js/site.n95nlvfq63.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n95nlvfq63"},{"Name":"integrity","Value":"sha256-lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A="},{"Name":"label","Value":"_content/TeploobmenWeb/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6622"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Dec 2025 14:34:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TeploobmenWeb/js/validation.fuv48l8lnr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\validation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fuv48l8lnr"},{"Name":"integrity","Value":"sha256-yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo="},{"Name":"label","Value":"_content/TeploobmenWeb/js/validation.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7029"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 20 Dec 2025 08:08:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TeploobmenWeb/js/validation.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\validation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7029"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 20 Dec 2025 08:08:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

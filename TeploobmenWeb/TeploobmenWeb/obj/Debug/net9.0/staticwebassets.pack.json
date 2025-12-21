@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+      "PackagePath": "staticwebassets\\js\\validation.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.TeploobmenWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.TeploobmenWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.TeploobmenWeb.props",
+      "PackagePath": "build\\TeploobmenWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.TeploobmenWeb.props",
+      "PackagePath": "buildMultiTargeting\\TeploobmenWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.TeploobmenWeb.props",
+      "PackagePath": "buildTransitive\\TeploobmenWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

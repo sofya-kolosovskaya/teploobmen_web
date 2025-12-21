@@ -1,0 +1,152 @@
+﻿@using HeatExchangeApp.Models
+@model List<CalculationHistory>
+
+@{
+    ViewData["Title"] = "История расчетов";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            padding-top: 70px;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #0d6efd;
+        }
+
+        .table-responsive {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .badge-user {
+            background-color: #6c757d;
+        }
+
+        .btn-sm {
+            padding: 3px 8px;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/Calculation">
+                <i class="bi bi-thermometer-half"></i> HeatExchange
+            </a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="mb-4">
+            <i class="bi bi-clock-history text-primary"></i> История расчетов
+        </h1>
+
+        @if (!Model.Any())
+        {
+            <div class="alert alert-info">
+                <i class="bi bi-info-circle"></i> История расчетов пуста.
+                <a href="/Calculation">Выполните первый расчет</a>.
+            </div>
+        }
+        else
+        {
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="bi bi-archive"></i> Сохраненные расчеты (@Model.Count)
+                    </h5>
+                    <form method="post" action="/History/ClearAll"
+                          onsubmit="return confirm('Удалить ВСЮ историю расчетов?')">
+                        <button type="submit" class="btn btn-danger btn-sm">
+                            <i class="bi bi-trash"></i> Очистить все
+                        </button>
+                    </form>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Название расчета</th>
+                                    <th>Пользователь</th>
+                                    <th>Дата и время</th>
+                                    <th>Параметры</th>
+                                    <th>Действия</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>
+                                            <strong>@item.CalculationName</strong>
+                                        </td>
+                                        <td>
+                                            <span class="badge badge-user">
+                                                <i class="bi bi-person"></i> @item.Username
+                                            </span>
+                                        </td>
+                                        <td>@item.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                        <td>
+                                            <small>
+                                                H₀=@item.H0, t'=@item.TPrime, T'=@item.TDoublePrime
+                                            </small>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <a href="/Calculation/ViewResult/@item.Id"
+                                                   class="btn btn-outline-primary" title="Просмотр">
+                                                    <i class="bi bi-eye"></i>
+                                                </a>
+                                                <form method="post" action="/History/Delete/@item.Id"
+                                                      style="display:inline"
+                                                      onsubmit="return confirm('Удалить этот расчет?')">
+                                                    <button type="submit" class="btn btn-outline-danger" title="Удалить">
+                                                        <i class="bi bi-trash"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    <small>
+                        <i class="bi bi-info-circle"></i> Всего записей: @Model.Count
+                    </small>
+                </div>
+            </div>
+        }
+
+        <div class="mt-4">
+            <a href="/Calculation" class="btn btn-primary">
+                <i class="bi bi-calculator"></i> Новый расчет
+            </a>
+            <a href="/" class="btn btn-outline-secondary">
+                <i class="bi bi-house"></i> На главную
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

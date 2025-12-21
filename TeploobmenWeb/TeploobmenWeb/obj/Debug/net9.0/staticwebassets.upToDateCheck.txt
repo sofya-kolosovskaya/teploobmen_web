@@ -1,0 +1,6 @@
+D:\teploobmen\TeploobmenWeb\TeploobmenWeb\wwwroot\js\validation.js
+D:\teploobmen\TeploobmenWeb\TeploobmenWeb\wwwroot\css\site.css
+D:\teploobmen\TeploobmenWeb\TeploobmenWeb\wwwroot\js\site.js
+wwwroot\css\site.css
+wwwroot\js\site.js
+wwwroot\js\validation.js

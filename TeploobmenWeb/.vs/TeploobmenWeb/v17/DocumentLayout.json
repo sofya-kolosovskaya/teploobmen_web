@@ -1,0 +1,531 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\teploobmen\\TeploobmenWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\services\\calculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\services\\calculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\models\\calculationhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\models\\calculationhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\models\\calculationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\models\\calculationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\models\\calculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\models\\calculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\views\\history\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\views\\history\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\views\\calculation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\views\\calculation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\wwwroot\\js\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\wwwroot\\js\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\views\\calculation\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\views\\calculation\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\teploobmenweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\teploobmenweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0421\u043E\u043D\u044F\\.nuget\\packages\\epplus\\8.4.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|d:\\teploobmen\\teploobmenweb\\teploobmenweb\\teploobmenweb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{542AAED7-3256-4127-81EC-A28A6072FD29}|TeploobmenWeb\\TeploobmenWeb.csproj|solutionrelative:teploobmenweb\\teploobmenweb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistoryController.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\HistoryController.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Controllers\\HistoryController.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\HistoryController.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Controllers\\HistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:34:52.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculationHistory.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\CalculationHistory.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Models\\CalculationHistory.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\CalculationHistory.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Models\\CalculationHistory.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:40:16.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculationService.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Services\\CalculationService.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Services\\CalculationService.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Services\\CalculationService.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Services\\CalculationService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:41:22.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculationController.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\CalculationController.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Controllers\\CalculationController.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\CalculationController.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Controllers\\CalculationController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:37:32.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Calculation\\Result.cshtml",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Views\\Calculation\\Result.cshtml",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Calculation\\Result.cshtml",
+              "RelativeToolTip": "TeploobmenWeb\\Views\\Calculation\\Result.cshtml",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAAAE4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T12:50:48.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "validation.js",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\wwwroot\\js\\validation.js",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+              "RelativeToolTip": "TeploobmenWeb\\wwwroot\\js\\validation.js",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-20T08:07:14.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Models\\User.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\User.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T14:00:50.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalculationResult.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\CalculationResult.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Models\\CalculationResult.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\CalculationResult.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Models\\CalculationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:39:27.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculationInput.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\CalculationInput.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Models\\CalculationInput.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\CalculationInput.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Models\\CalculationInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:39:08.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "TeploobmenWeb\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T14:09:07.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\History\\Index.cshtml",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Views\\History\\Index.cshtml",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\History\\Index.cshtml",
+              "RelativeToolTip": "TeploobmenWeb\\Views\\History\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T12:51:28.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Calculation\\Index.cshtml",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Views\\Calculation\\Index.cshtml",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Calculation\\Index.cshtml",
+              "RelativeToolTip": "TeploobmenWeb\\Views\\Calculation\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T12:49:30.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "TeploobmenWeb\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-14T14:32:21.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TeploobmenWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-14T14:27:04.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Program.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Program.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Program.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T10:36:52.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T14:05:34.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T14:06:06.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "TeploobmenWeb\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T14:09:38.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:37:42.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\package.json",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\package.json",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\package.json",
+              "RelativeToolTip": "TeploobmenWeb\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-16T18:26:30.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TeploobmenWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T14:16:55.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T14:05:06.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Services\\AuthService.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Services\\AuthService.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Services\\AuthService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA7wEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T14:01:39.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:40:39.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TeploobmenWeb\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T13:32:42.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TeploobmenWeb",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\TeploobmenWeb.csproj",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
+              "RelativeToolTip": "TeploobmenWeb\\TeploobmenWeb.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-14T13:54:32.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u043D\u044F\\.nuget\\packages\\epplus\\8.4.0\\readme.txt",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u043D\u044F\\.nuget\\packages\\epplus\\8.4.0\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-14T11:25:52.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TeploobmenWeb.http",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.http",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\TeploobmenWeb.http",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.http",
+              "RelativeToolTip": "TeploobmenWeb\\TeploobmenWeb.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-14T11:17:56.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "TeploobmenWeb\\appsettings.json",
+              "ToolTip": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\appsettings.json",
+              "RelativeToolTip": "TeploobmenWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T10:45:14.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

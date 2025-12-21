@@ -1,0 +1,191 @@
+﻿@{
+    ViewData["Title"] = "Вход в систему";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .login-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+            .login-header h2 {
+                color: #333;
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+
+            .login-header p {
+                color: #666;
+                margin-bottom: 0;
+            }
+
+        .form-control {
+            border-radius: 10px;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+        }
+
+            .form-control:focus {
+                border-color: #667eea;
+                box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            }
+
+        .btn-login {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 600;
+            width: 100%;
+            transition: all 0.3s;
+        }
+
+            .btn-login:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            }
+
+        .alert {
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .login-footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+
+            .login-footer a {
+                color: #667eea;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+                .login-footer a:hover {
+                    text-decoration: underline;
+                }
+
+        .app-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+            .app-logo i {
+                font-size: 48px;
+                color: #667eea;
+                margin-right: 10px;
+            }
+
+            .app-logo span {
+                font-size: 28px;
+                font-weight: 700;
+                color: #333;
+            }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <div class="app-logo">
+            <i class="bi bi-thermometer-half"></i>
+            <span>HeatExchange</span>
+        </div>
+
+        <div class="login-header">
+            <h2>Вход в систему</h2>
+            <p>Введите данные для доступа к расчетам</p>
+        </div>
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger">
+                <i class="bi bi-exclamation-triangle"></i> @ViewBag.Error
+            </div>
+        }
+
+        <form method="post" asp-action="Login">
+            <div class="mb-3">
+                <label for="username" class="form-label">Имя пользователя</label>
+                <input type="text" class="form-control" id="username" name="username"
+                       placeholder="Введите имя пользователя" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Пароль</label>
+                <input type="password" class="form-control" id="password" name="password"
+                       placeholder="Введите пароль">
+                <small class="text-muted">Для демо-версии можно оставить пустым</small>
+            </div>
+
+            <button type="submit" class="btn btn-login mb-3">
+                <i class="bi bi-box-arrow-in-right"></i> Войти
+            </button>
+
+            <div class="login-footer">
+                <p>Нет аккаунта? <a href="@Url.Action("Register")">Зарегистрироваться</a></p>
+                <p><a href="@Url.Action("Index", "Calculation")">Продолжить как гость</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Автофокус на поле имени пользователя
+        document.getElementById('username').focus();
+
+        // Для демо: заполнение тестовых данных
+        document.addEventListener('DOMContentLoaded', function() {
+            var username = localStorage.getItem('demo_username');
+            if (username) {
+                document.getElementById('username').value = username;
+            }
+
+            // Сохраняем имя при входе
+            document.querySelector('form').addEventListener('submit', function() {
+                var username = document.getElementById('username').value;
+                if (username) {
+                    localStorage.setItem('demo_username', username);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
