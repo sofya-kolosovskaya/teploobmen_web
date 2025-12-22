@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+      "Id": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+      "Id": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+      "Id": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
       "PackagePath": "staticwebassets\\js\\validation.js"
     },
     {

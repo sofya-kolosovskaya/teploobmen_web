@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mM1f7zKmu1PV1vOKZCanZDaUurIIrAaDg54MLwyx7LA=",
+  "Hash": "f0twrE1bcQUm7qYF2Eb8KJ2kphVMQHYDW0jXxbgDGds=",
   "Source": "TeploobmenWeb",
   "BasePath": "_content/TeploobmenWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TeploobmenWeb\\wwwroot",
       "Source": "TeploobmenWeb",
-      "ContentRoot": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
+      "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
       "BasePath": "_content/TeploobmenWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
       "SourceId": "TeploobmenWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TeploobmenWeb",
       "RelativePath": "js/validation#[.{fingerprint=fuv48l8lnr}]?.js.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+      "RelatedAsset": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "xx38jlyw5r",
       "Integrity": "9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js"
+      "OriginalItemSpec": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js"
     },
     {
-      "Identity": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
+      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
       "SourceId": "TeploobmenWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TeploobmenWeb",
       "RelativePath": "css/site#[.{fingerprint=cac8cuq0u0}]?.css.gz",
       "AssetKind": "All",
@@ -49,41 +49,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+      "RelatedAsset": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "qrtupkl071",
       "Integrity": "NsuCQiTPXzZO4qqHfSXi4l3J3R37kDEjltNoKR3Xi3Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-n95nlvfq63.gz",
+      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-lv17n1r5fc.gz",
       "SourceId": "TeploobmenWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TeploobmenWeb",
-      "RelativePath": "js/site#[.{fingerprint=n95nlvfq63}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=lv17n1r5fc}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+      "RelatedAsset": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pd043r78hs",
-      "Integrity": "E4ZkecAchTbjvt7czFIt28AEoKwxOkEURLEooHXGUmc=",
+      "Fingerprint": "p26idh419u",
+      "Integrity": "QYBqEI9+kBVK7r5L/FPjJ6DKBTKxIgCeQvFVZAVZNoo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js"
+      "OriginalItemSpec": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
       "SourceId": "TeploobmenWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
+      "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
       "BasePath": "_content/TeploobmenWeb",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
       "SourceId": "TeploobmenWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
+      "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
       "BasePath": "_content/TeploobmenWeb",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -115,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n95nlvfq63",
-      "Integrity": "lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A=",
+      "Fingerprint": "lv17n1r5fc",
+      "Integrity": "v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
       "SourceId": "TeploobmenWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
+      "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\",
       "BasePath": "_content/TeploobmenWeb",
       "RelativePath": "js/validation#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "css/site.cac8cuq0u0.css",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -209,7 +209,7 @@
     },
     {
       "Route": "css/site.cac8cuq0u0.css",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -254,7 +254,7 @@
     },
     {
       "Route": "css/site.cac8cuq0u0.css.gz",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -307,7 +307,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -362,7 +362,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -399,7 +399,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\4ls1lritmb-cac8cuq0u0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -444,12 +444,12 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-n95nlvfq63.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-lv17n1r5fc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000418060201"
+          "Quality": "0.000424628450"
         }
       ],
       "ResponseHeaders": [
@@ -459,15 +459,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2391"
+          "Value": "2354"
         },
         {
           "Name": "ETag",
-          "Value": "\"E4ZkecAchTbjvt7czFIt28AEoKwxOkEURLEooHXGUmc=\""
+          "Value": "\"QYBqEI9+kBVK7r5L/FPjJ6DKBTKxIgCeQvFVZAVZNoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 14:34:07 GMT"
+          "Value": "Sun, 21 Dec 2025 18:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -487,19 +487,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A=\""
+          "Value": "W/\"v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A="
+          "Value": "sha256-v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -508,7 +508,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6622"
+          "Value": "6559"
         },
         {
           "Name": "Content-Type",
@@ -516,11 +516,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A=\""
+          "Value": "\"v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 14:34:07 GMT"
+          "Value": "Sun, 21 Dec 2025 18:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -530,13 +530,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A="
+          "Value": "sha256-v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-n95nlvfq63.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-lv17n1r5fc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -545,7 +545,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2391"
+          "Value": "2354"
         },
         {
           "Name": "Content-Type",
@@ -553,11 +553,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E4ZkecAchTbjvt7czFIt28AEoKwxOkEURLEooHXGUmc=\""
+          "Value": "\"QYBqEI9+kBVK7r5L/FPjJ6DKBTKxIgCeQvFVZAVZNoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 14:34:07 GMT"
+          "Value": "Sun, 21 Dec 2025 18:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -575,18 +575,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-E4ZkecAchTbjvt7czFIt28AEoKwxOkEURLEooHXGUmc="
+          "Value": "sha256-QYBqEI9+kBVK7r5L/FPjJ6DKBTKxIgCeQvFVZAVZNoo="
         }
       ]
     },
     {
-      "Route": "js/site.n95nlvfq63.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-n95nlvfq63.gz",
+      "Route": "js/site.lv17n1r5fc.js",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-lv17n1r5fc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000418060201"
+          "Quality": "0.000424628450"
         }
       ],
       "ResponseHeaders": [
@@ -596,15 +596,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2391"
+          "Value": "2354"
         },
         {
           "Name": "ETag",
-          "Value": "\"E4ZkecAchTbjvt7czFIt28AEoKwxOkEURLEooHXGUmc=\""
+          "Value": "\"QYBqEI9+kBVK7r5L/FPjJ6DKBTKxIgCeQvFVZAVZNoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 14:34:07 GMT"
+          "Value": "Sun, 21 Dec 2025 18:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -624,13 +624,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A=\""
+          "Value": "W/\"v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n95nlvfq63"
+          "Value": "lv17n1r5fc"
         },
         {
           "Name": "label",
@@ -638,13 +638,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A="
+          "Value": "sha256-v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8="
         }
       ]
     },
     {
-      "Route": "js/site.n95nlvfq63.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
+      "Route": "js/site.lv17n1r5fc.js",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -653,7 +653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6622"
+          "Value": "6559"
         },
         {
           "Name": "Content-Type",
@@ -661,11 +661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A=\""
+          "Value": "\"v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 14:34:07 GMT"
+          "Value": "Sun, 21 Dec 2025 18:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -675,7 +675,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n95nlvfq63"
+          "Value": "lv17n1r5fc"
         },
         {
           "Name": "label",
@@ -683,13 +683,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lQSFBDsPhAPE5Ubo18qKvAavg9N4zubQvYf4POHTE4A="
+          "Value": "sha256-v+8FVkWbiiibLWT/IyYHNdhNdua9kuuV56iH0rZPTD8="
         }
       ]
     },
     {
-      "Route": "js/site.n95nlvfq63.js.gz",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-n95nlvfq63.gz",
+      "Route": "js/site.lv17n1r5fc.js.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\bp93s4bthh-lv17n1r5fc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -698,7 +698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2391"
+          "Value": "2354"
         },
         {
           "Name": "Content-Type",
@@ -706,11 +706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E4ZkecAchTbjvt7czFIt28AEoKwxOkEURLEooHXGUmc=\""
+          "Value": "\"QYBqEI9+kBVK7r5L/FPjJ6DKBTKxIgCeQvFVZAVZNoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 14:34:07 GMT"
+          "Value": "Sun, 21 Dec 2025 18:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -728,7 +728,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n95nlvfq63"
+          "Value": "lv17n1r5fc"
         },
         {
           "Name": "label",
@@ -736,13 +736,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-E4ZkecAchTbjvt7czFIt28AEoKwxOkEURLEooHXGUmc="
+          "Value": "sha256-QYBqEI9+kBVK7r5L/FPjJ6DKBTKxIgCeQvFVZAVZNoo="
         }
       ]
     },
     {
       "Route": "js/validation.fuv48l8lnr.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -805,7 +805,7 @@
     },
     {
       "Route": "js/validation.fuv48l8lnr.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -850,7 +850,7 @@
     },
     {
       "Route": "js/validation.fuv48l8lnr.js.gz",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -903,7 +903,7 @@
     },
     {
       "Route": "js/validation.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -958,7 +958,7 @@
     },
     {
       "Route": "js/validation.js",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -995,7 +995,7 @@
     },
     {
       "Route": "js/validation.js.gz",
-      "AssetFile": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

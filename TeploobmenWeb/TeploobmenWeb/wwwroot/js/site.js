@@ -1,4 +1,4 @@
-﻿// Основные JavaScript функции для сайта
+﻿
 
 // Инициализация при загрузке страницы
 document.addEventListener('DOMContentLoaded', function () {

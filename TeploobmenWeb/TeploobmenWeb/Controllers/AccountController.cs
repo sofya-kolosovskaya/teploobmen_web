@@ -22,18 +22,15 @@ namespace HeatExchangeApp.Controllers
             return View();
         }
 
-        // POST: /Account/Login
+
         [HttpPost]
         public IActionResult Login(string username, string password)
         {
-            // Простая проверка (в реальном проекте нужна проверка пароля)
             var user = _context.Users.FirstOrDefault(u => u.Username == username);
 
             if (user != null)
             {
-                // В демо-версии просто проверяем существование пользователя
-                // В реальном проекте: проверка хеша пароля
-                if (user.PasswordHash == HashPassword(password) || password == "demo123") // demo пароль для теста
+                if (user.PasswordHash == HashPassword(password) || password == "demo123") 
                 {
                     HttpContext.Session.SetString("Username", user.Username);
                     HttpContext.Session.SetInt32("UserId", user.Id);
@@ -42,7 +39,6 @@ namespace HeatExchangeApp.Controllers
                 }
             }
 
-            // Если пользователя нет, создаем нового (для демо)
             if (string.IsNullOrEmpty(username))
             {
                 ViewBag.Error = "Введите имя пользователя";
@@ -110,7 +106,7 @@ namespace HeatExchangeApp.Controllers
             return RedirectToAction("Login");
         }
 
-        // Простое хеширование (для демо)
+   
         private string HashPassword(string password)
         {
             using var sha256 = System.Security.Cryptography.SHA256.Create();

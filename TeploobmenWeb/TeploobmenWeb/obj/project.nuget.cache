@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DF+wvSNWMkU=",
+  "dgSpecHash": "bsx1l+AE9NI=",
   "success": true,
-  "projectFilePath": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
+  "projectFilePath": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Соня\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Соня\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

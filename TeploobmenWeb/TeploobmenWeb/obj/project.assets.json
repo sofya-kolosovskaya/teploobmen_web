@@ -2569,11 +2569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
+      "projectUniqueName": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
       "projectName": "TeploobmenWeb",
-      "projectPath": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
+      "projectPath": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\TeploobmenWeb.csproj",
       "packagesPath": "C:\\Users\\Соня\\.nuget\\packages\\",
-      "outputPath": "D:\\teploobmen\\TeploobmenWeb\\TeploobmenWeb\\obj\\",
+      "outputPath": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

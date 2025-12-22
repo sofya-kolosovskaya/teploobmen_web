@@ -1,4 +1,4 @@
-﻿// Models/ViewModels/LoginViewModel.cs
+﻿
 using System.ComponentModel.DataAnnotations;
 
 namespace HeatExchangeApp.Models.ViewModels

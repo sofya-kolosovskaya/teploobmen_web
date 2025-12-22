@@ -2,6 +2,8 @@
 using HeatExchangeApp.Models;
 using HeatExchangeApp.Services;
 using HeatExchangeApp.Data;
+using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace HeatExchangeApp.Controllers
 {
@@ -9,11 +11,13 @@ namespace HeatExchangeApp.Controllers
     {
         private readonly CalculationService _calcService;
         private readonly AppDbContext _context;
+        private readonly ILogger<CalculationController> _logger;
 
-        public CalculationController(CalculationService calcService, AppDbContext context)
+        public CalculationController(CalculationService calcService, AppDbContext context, ILogger<CalculationController> logger = null)
         {
             _calcService = calcService;
             _context = context;
+            _logger = logger;
         }
 
         public IActionResult Index()
@@ -23,26 +27,26 @@ namespace HeatExchangeApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Calculate(CalculationInput input, string calcName = "Новый расчет")
+        public async Task<IActionResult> Calculate(CalculationInput input, string calcName = "Новый расчет")
         {
-            Console.WriteLine("=== НАЧАЛО РАСЧЕТА ===");
+            _logger?.LogInformation("=== НАЧАЛО АСИНХРОННОГО РАСЧЕТА ===");
 
             // Если модель null, берем из формы
             if (input == null || input.H0 == 0)
             {
-                Console.WriteLine("Берем данные из формы...");
+                _logger?.LogDebug("Берем данные из формы...");
                 input = new CalculationInput
                 {
-                    H0 = GetDouble("H0", 5.0),
-                    TPrime = GetDouble("TPrime", 700),
-                    TDoublePrime = GetDouble("TDoublePrime", 20),
-                    Wg = GetDouble("Wg", 0.78),
-                    Cg = GetDouble("Cg", 1.32),
-                    Gm = GetDouble("Gm", 1.72),
-                    Cm = GetDouble("Cm", 1.49),
-                    Av = GetDouble("Av", 2460),
-                    D = GetDouble("D", 2.2),
-                    PointsCount = GetInt("PointsCount", 11)
+                    H0 = await GetDoubleAsync("H0", 5.0),
+                    TPrime = await GetDoubleAsync("TPrime", 700),
+                    TDoublePrime = await GetDoubleAsync("TDoublePrime", 20),
+                    Wg = await GetDoubleAsync("Wg", 0.78),
+                    Cg = await GetDoubleAsync("Cg", 1.32),
+                    Gm = await GetDoubleAsync("Gm", 1.72),
+                    Cm = await GetDoubleAsync("Cm", 1.49),
+                    Av = await GetDoubleAsync("Av", 2460),
+                    D = await GetDoubleAsync("D", 2.2),
+                    PointsCount = await GetIntAsync("PointsCount", 11)
                 };
 
                 if (string.IsNullOrEmpty(calcName))
@@ -53,45 +57,49 @@ namespace HeatExchangeApp.Controllers
                 }
             }
 
-            Console.WriteLine($"Расчет: {calcName}, H0={input.H0}");
+            _logger?.LogInformation("Расчет: {CalcName}, H0={H0}", calcName, input.H0);
 
-            // 1. Выполняем расчет
-            var result = _calcService.Calculate(input, calcName);
+            var calculationTask = Task.Run(() => _calcService.Calculate(input, calcName));
+            var result = await calculationTask;
             result.Input = input;
 
-            // 2. Сохраняем в историю
             try
             {
                 var username = HttpContext.Session?.GetString("Username") ?? "Гость";
                 var history = _calcService.CreateHistory(input, result, username);
 
-                _context.CalculationHistories.Add(history);
-                _context.SaveChanges();
+                await _context.CalculationHistories.AddAsync(history);
+                await _context.SaveChangesAsync();
 
-                Console.WriteLine($"✅ Сохранено в историю с ID: {history.Id}");
+                _logger?.LogInformation("Сохранено в историю с ID: {HistoryId}", history.Id);
                 ViewBag.SavedId = history.Id;
+                ViewBag.Message = $"Расчёт успешно сохранён (ID: {history.Id})";
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"❌ Ошибка сохранения: {ex.Message}");
+                _logger?.LogError(ex, "Ошибка сохранения расчета");
+                ViewBag.Error = $"Ошибка сохранения: {ex.Message}";
             }
 
-            // 3. Показываем результат
+
             return View("Result", result);
         }
 
-        // Тестовый метод
-        public IActionResult Test()
+ 
+        public async Task<IActionResult> Test()
         {
             var testInput = new CalculationInput();
-            var result = _calcService.Calculate(testInput, "Тестовый расчет");
+            var result = await Task.Run(() => _calcService.Calculate(testInput, "Тестовый расчет"));
             return View("Result", result);
         }
 
-        // Просмотр из истории
-        public IActionResult ViewResult(int id)
+ 
+        public async Task<IActionResult> ViewResult(int id)
         {
-            var history = _context.CalculationHistories.Find(id);
+            var history = await _context.CalculationHistories
+                .AsNoTracking() // Для только чтения - оптимизация
+                .FirstOrDefaultAsync(h => h.Id == id);
+
             if (history == null)
             {
                 return NotFound();
@@ -101,25 +109,72 @@ namespace HeatExchangeApp.Controllers
             return View("Result", result);
         }
 
-        // Вспомогательные методы
-        private double GetDouble(string name, double defaultValue)
+        public async Task<IActionResult> History(int page = 1, int pageSize = 10)
         {
-            if (Request.Form.TryGetValue(name, out var value))
+            var username = HttpContext.Session?.GetString("Username") ?? "Гость";
+
+            var totalCount = await _context.CalculationHistories
+                .Where(h => h.Username == username)
+                .CountAsync();
+
+            var history = await _context.CalculationHistories
+                .Where(h => h.Username == username)
+                .OrderByDescending(h => h.Id)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .AsNoTracking()
+                .ToListAsync();
+
+            ViewBag.TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
+            ViewBag.CurrentPage = page;
+
+            return View(history);
+        }
+
+    
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var history = await _context.CalculationHistories.FindAsync(id);
+
+            if (history == null)
+            {
+                return NotFound();
+            }
+
+            var username = HttpContext.Session?.GetString("Username");
+            if (history.Username != username)
+            {
+                return Forbid();
+            }
+
+            _context.CalculationHistories.Remove(history);
+            await _context.SaveChangesAsync();
+
+            TempData["Message"] = "Расчёт успешно удалён";
+            return RedirectToAction(nameof(History));
+        }
+
+
+        private async Task<double> GetDoubleAsync(string name, double defaultValue)
+        {
+            if (Request.HasFormContentType && Request.Form.TryGetValue(name, out var value))
             {
                 if (double.TryParse(value.ToString().Replace(',', '.'), out var result))
                     return result;
             }
-            return defaultValue;
+            return await Task.FromResult(defaultValue);
         }
 
-        private int GetInt(string name, int defaultValue)
+        private async Task<int> GetIntAsync(string name, int defaultValue)
         {
-            if (Request.Form.TryGetValue(name, out var value))
+            if (Request.HasFormContentType && Request.Form.TryGetValue(name, out var value))
             {
                 if (int.TryParse(value.ToString(), out var result))
                     return result;
             }
-            return defaultValue;
+            return await Task.FromResult(defaultValue);
         }
     }
 }

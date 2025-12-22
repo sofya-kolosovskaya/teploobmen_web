@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeploobmenWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f764e8b72b3656230cab50eb38299f24fef0067")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeploobmenWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeploobmenWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

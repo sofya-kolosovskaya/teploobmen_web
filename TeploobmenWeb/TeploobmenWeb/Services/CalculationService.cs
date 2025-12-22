@@ -108,6 +108,11 @@ namespace HeatExchangeApp.Services
             };
         }
 
+        public async Task<CalculationResult> CalculateAsync(CalculationInput input, string name = "Расчет")
+        {
+            return await Task.Run(() => Calculate(input, name));
+        }
+
         public CalculationResult LoadFromHistory(CalculationHistory history)
         {
             var options = new JsonSerializerOptions
