@@ -9,7 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 // MVC
 builder.Services.AddControllersWithViews();
 
-// Сессии (добавляем ДО других сервисов, которые могут их использовать)
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {

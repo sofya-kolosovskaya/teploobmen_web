@@ -29,7 +29,6 @@ namespace HeatExchangeApp.Services
 
         public bool VerifyPassword(string password, string storedHash)
         {
-            // Простая проверка (для демо - в реальном проекте нужно хранить соль отдельно)
             using var sha256 = SHA256.Create();
             var hashedInput = Convert.ToBase64String(sha256.ComputeHash(Encoding.UTF8.GetBytes(password)));
             return hashedInput == storedHash;
@@ -59,8 +58,6 @@ namespace HeatExchangeApp.Services
             if (user == null)
                 return null;
 
-            // В реальном проекте нужно использовать библиотеку BCrypt или подобную
-            // Здесь упрощенная проверка для демо
             if (VerifyPassword(password, user.PasswordHash))
                 return user;
 
