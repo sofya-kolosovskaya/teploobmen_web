@@ -1,4 +1,4 @@
-﻿// Program.cs
+﻿
 using Microsoft.EntityFrameworkCore;
 using HeatExchangeApp.Data;
 using HeatExchangeApp.Services;
@@ -44,10 +44,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-// Маршрутизация должна быть ДО авторизации
 app.UseRouting();
 
-// Сессии ДО авторизации
 app.UseSession();
 
 app.UseAuthorization();
