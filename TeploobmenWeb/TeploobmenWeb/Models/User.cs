@@ -25,7 +25,7 @@ namespace HeatExchangeApp.Models
 
         public DateTime CreatedAt { get; set; }
 
-        //Навигационное свойство для расчетов пользователя
+        
         public virtual ICollection<CalculationHistory> Calculations { get; set; }
 
         public User()

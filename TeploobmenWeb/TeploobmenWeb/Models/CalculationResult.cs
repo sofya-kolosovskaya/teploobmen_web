@@ -11,7 +11,7 @@ namespace HeatExchangeApp.Models
         public double[] GasTemp { get; set; }       // T
         public double[] TempDifference { get; set; }
 
-        // Дополнительные параметры
+   
         public double S { get; set; }
         public double Wm { get; set; }
         public double Wg { get; set; }
@@ -25,7 +25,7 @@ namespace HeatExchangeApp.Models
         // Название расчета
         public string Name { get; set; }
 
-        // Конструктор
+
         public CalculationResult()
         {
             Name = "Новый расчет";

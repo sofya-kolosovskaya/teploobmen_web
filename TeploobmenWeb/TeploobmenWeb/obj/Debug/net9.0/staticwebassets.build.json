@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f0twrE1bcQUm7qYF2Eb8KJ2kphVMQHYDW0jXxbgDGds=",
+  "Hash": "MQzNA3+tKXLl6wjBssUSeQZHqTHlzlDl8uojDjeHMgU=",
   "Source": "TeploobmenWeb",
   "BasePath": "_content/TeploobmenWeb",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "Identity": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-f1pinonqh1.gz",
       "SourceId": "TeploobmenWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TeploobmenWeb",
-      "RelativePath": "js/validation#[.{fingerprint=fuv48l8lnr}]?.js.gz",
+      "RelativePath": "js/validation#[.{fingerprint=f1pinonqh1}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xx38jlyw5r",
-      "Integrity": "9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A=",
+      "Fingerprint": "l0nmsi6lyn",
+      "Integrity": "+x2PHPlRhPeSo+plUEYNR7ly8Panurr08xfMnvqVy/g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fuv48l8lnr",
-      "Integrity": "yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo=",
+      "Fingerprint": "f1pinonqh1",
+      "Integrity": "venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\validation.js"
@@ -741,13 +741,13 @@
       ]
     },
     {
-      "Route": "js/validation.fuv48l8lnr.js",
-      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "Route": "js/validation.f1pinonqh1.js",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-f1pinonqh1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000509683996"
+          "Quality": "0.000523560209"
         }
       ],
       "ResponseHeaders": [
@@ -757,15 +757,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1961"
+          "Value": "1909"
         },
         {
           "Name": "ETag",
-          "Value": "\"9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A=\""
+          "Value": "\"+x2PHPlRhPeSo+plUEYNR7ly8Panurr08xfMnvqVy/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:08:54 GMT"
+          "Value": "Thu, 25 Dec 2025 06:49:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -785,13 +785,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo=\""
+          "Value": "W/\"venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fuv48l8lnr"
+          "Value": "f1pinonqh1"
         },
         {
           "Name": "label",
@@ -799,12 +799,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo="
+          "Value": "sha256-venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E="
         }
       ]
     },
     {
-      "Route": "js/validation.fuv48l8lnr.js",
+      "Route": "js/validation.f1pinonqh1.js",
       "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\wwwroot\\js\\validation.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -814,7 +814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7029"
+          "Value": "6932"
         },
         {
           "Name": "Content-Type",
@@ -822,11 +822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo=\""
+          "Value": "\"venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:08:54 GMT"
+          "Value": "Thu, 25 Dec 2025 06:49:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -836,7 +836,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fuv48l8lnr"
+          "Value": "f1pinonqh1"
         },
         {
           "Name": "label",
@@ -844,13 +844,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo="
+          "Value": "sha256-venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E="
         }
       ]
     },
     {
-      "Route": "js/validation.fuv48l8lnr.js.gz",
-      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "Route": "js/validation.f1pinonqh1.js.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-f1pinonqh1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -859,7 +859,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1961"
+          "Value": "1909"
         },
         {
           "Name": "Content-Type",
@@ -867,11 +867,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A=\""
+          "Value": "\"+x2PHPlRhPeSo+plUEYNR7ly8Panurr08xfMnvqVy/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:08:54 GMT"
+          "Value": "Thu, 25 Dec 2025 06:49:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -889,7 +889,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fuv48l8lnr"
+          "Value": "f1pinonqh1"
         },
         {
           "Name": "label",
@@ -897,18 +897,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A="
+          "Value": "sha256-+x2PHPlRhPeSo+plUEYNR7ly8Panurr08xfMnvqVy/g="
         }
       ]
     },
     {
       "Route": "js/validation.js",
-      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-f1pinonqh1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000509683996"
+          "Quality": "0.000523560209"
         }
       ],
       "ResponseHeaders": [
@@ -918,15 +918,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1961"
+          "Value": "1909"
         },
         {
           "Name": "ETag",
-          "Value": "\"9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A=\""
+          "Value": "\"+x2PHPlRhPeSo+plUEYNR7ly8Panurr08xfMnvqVy/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:08:54 GMT"
+          "Value": "Thu, 25 Dec 2025 06:49:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -946,13 +946,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo=\""
+          "Value": "W/\"venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo="
+          "Value": "sha256-venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E="
         }
       ]
     },
@@ -967,7 +967,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7029"
+          "Value": "6932"
         },
         {
           "Name": "Content-Type",
@@ -975,11 +975,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo=\""
+          "Value": "\"venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:08:54 GMT"
+          "Value": "Thu, 25 Dec 2025 06:49:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -989,13 +989,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yUmpxKL8VFmJHagi8K2ro2EbbzESybR9O3n/mMKYKSo="
+          "Value": "sha256-venjOeLYAzykwbYdcsxRLTJ4Qe+bDkQkJq37pbXLY1E="
         }
       ]
     },
     {
       "Route": "js/validation.js.gz",
-      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-fuv48l8lnr.gz",
+      "AssetFile": "D:\\teploobmen\\teploobmen_web\\TeploobmenWeb\\TeploobmenWeb\\obj\\Debug\\net9.0\\compressed\\2pbyedwcd0-f1pinonqh1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1004,7 +1004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1961"
+          "Value": "1909"
         },
         {
           "Name": "Content-Type",
@@ -1012,11 +1012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A=\""
+          "Value": "\"+x2PHPlRhPeSo+plUEYNR7ly8Panurr08xfMnvqVy/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:08:54 GMT"
+          "Value": "Thu, 25 Dec 2025 06:49:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1034,7 +1034,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9Uw1tGt/jPcu8n0saSbeYmoGrAO7SrduzLDOccJ4+5A="
+          "Value": "sha256-+x2PHPlRhPeSo+plUEYNR7ly8Panurr08xfMnvqVy/g="
         }
       ]
     }

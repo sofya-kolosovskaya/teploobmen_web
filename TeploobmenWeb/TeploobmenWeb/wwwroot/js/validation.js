@@ -136,7 +136,6 @@ function initValidation() {
     }
 }
 
-// Экспорт функций для использования в других файлах
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         validateNumber,

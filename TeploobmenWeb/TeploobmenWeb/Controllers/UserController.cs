@@ -1,4 +1,4 @@
-﻿// Controllers/UserController.cs
+﻿
 using Microsoft.AspNetCore.Mvc;
 
 namespace HeatExchangeApp.Controllers

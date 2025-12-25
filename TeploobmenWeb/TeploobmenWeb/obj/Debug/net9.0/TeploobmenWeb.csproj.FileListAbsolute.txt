@@ -249,7 +249,6 @@ D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\Teploo
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\TeploobmenWeb.sourcelink.json
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\scopedcss\bundle\TeploobmenWeb.styles.css
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\compressed\4ls1lritmb-cac8cuq0u0.gz
-D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\compressed\2pbyedwcd0-fuv48l8lnr.gz
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\staticwebassets.build.json
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\staticwebassets.development.json
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -267,3 +266,4 @@ D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\Teploo
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\TeploobmenWeb.genruntimeconfig.cache
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\ref\TeploobmenWeb.dll
 D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\compressed\bp93s4bthh-lv17n1r5fc.gz
+D:\teploobmen\teploobmen_web\TeploobmenWeb\TeploobmenWeb\obj\Debug\net9.0\compressed\2pbyedwcd0-f1pinonqh1.gz

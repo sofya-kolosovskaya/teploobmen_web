@@ -5,7 +5,6 @@ using HeatExchangeApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. Регистрация сервисов ДО builder.Build()
 
 // MVC
 builder.Services.AddControllersWithViews();
@@ -26,7 +25,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Регистрация собственных сервисов
 builder.Services.AddScoped<CalculationService>();
-builder.Services.AddScoped<AuthService>();  // Если используете авторизацию
+builder.Services.AddScoped<AuthService>();
 
 // HttpContextAccessor для доступа к HttpContext в сервисах
 builder.Services.AddHttpContextAccessor();
@@ -34,7 +33,6 @@ builder.Services.AddHttpContextAccessor();
 // 2. Сборка приложения
 var app = builder.Build();
 
-// 3. Конфигурация middleware ПОСЛЕ builder.Build()
 
 // Настройка конвейера middleware
 if (!app.Environment.IsDevelopment())
@@ -54,7 +52,7 @@ app.UseSession();
 
 app.UseAuthorization();
 
-// Создание БД при запуске (если не существует)
+
 using (var scope = app.Services.CreateScope())
 {
     try
